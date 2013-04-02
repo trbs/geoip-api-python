@@ -647,6 +647,10 @@ DL_EXPORT(void) initGeoIP(void)
     Py_DECREF(tmp);
 
     tmp = PyInt_FromLong(GEOIP_MEMORY_CACHE);
+    PyDict_SetItemString(d, "GEOIP_MAP_CACHE", tmp);
+    Py_DECREF(tmp);
+
+    tmp = PyInt_FromLong(GEOIP_MEMORY_CACHE);
     PyDict_SetItemString(d, "GEOIP_MEMORY_CACHE", tmp);
     Py_DECREF(tmp);
 
