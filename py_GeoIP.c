@@ -22,7 +22,7 @@
 #include "GeoIP.h"
 #include "GeoIPCity.h"
 
-staticforward PyTypeObject GeoIP_GeoIPType;
+static PyTypeObject GeoIP_GeoIPType;
 
 /* Exception object for python */
 static PyObject *PyGeoIPError;
