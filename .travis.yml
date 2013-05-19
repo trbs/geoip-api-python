@@ -5,7 +5,7 @@ python:
   - "3.2"
   - "3.3"
 install:
-  - "apt-get install libgeoip-dev"
+  - "sudo apt-get install libgeoip-dev"
   - "pip install ."
 script:
   - "python test.py"
