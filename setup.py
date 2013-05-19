@@ -6,7 +6,7 @@ module1 = Extension('GeoIP',
 	library_dirs = ['/usr/local/lib'],
 	include_dirs = ['/usr/local/include'])
 
-setup (name = 'GeoIP-Python',
+setup (name = 'GeoIP-Python-trbs',
 	version = '1.2.8',
 	description = 'This is a python wrapper to GeoIP',
 	ext_modules = [module1])
